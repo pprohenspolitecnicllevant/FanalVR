@@ -52,11 +52,11 @@ class ModelLoader {
       (xhr) => {
         // Aquesta funció de callback es crida mentre es carrega el model
         // i podem mostrar el progrés de càrrega
-        console.log((xhr.loaded / xhr.total) * 100 + "% loaded");
+        // console.log((xhr.loaded / xhr.total) * 100 + "% loaded");
       },
       (error) => {
         // Callback per quan hi ha un error. El podem mostrar per consola.
-        console.error(error);
+        // console.error(error);
       }
     );
   }
